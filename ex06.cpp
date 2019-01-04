@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    vector<int> digits = {9, 9, 9, 9};
+    vector<int> digits(4, 9);
 
     int plus = 1, i = digits.size();
     stack<int> temp;
